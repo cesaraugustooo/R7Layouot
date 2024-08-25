@@ -1,12 +1,17 @@
+
+section{
+    width: 85%;
+    margin: auto;
+    padding: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 body{
     margin: 0px;
     padding: 0px;
     background-color: rgb(255, 255, 255);
-}
-#sec-nsi{
-    width: 85%;
-    height: auto;
-    margin: auto;
 }
 #r7icon{
     width: 40px;
@@ -17,7 +22,7 @@ body{
 .menu2{
     padding: 300px;
 }
-#Menu p{
+.Menu p{
     display: inline-block;
     padding: 20px;
     color: aliceblue;
@@ -27,20 +32,16 @@ body{
     display: inline-block; 
     justify-content: space-between;    
 }
-.anuncio{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.topico-margin{
+    margin: 0px auto 0px auto;
 }
 .anuncio-img{
     margin: 50px;
-
+    width: 970px;
+    height: 250px;
 }
 .Noticia-s-imagem{
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-size: xx-large;
     font-weight: 700;
     font-family:  Arial, sans-serif;
@@ -50,17 +51,17 @@ a{
     border: none;
 }
 .ao-vivo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 73%;
+    width: 85%;
     height: 60px;
     background-color:#EDEDED ;
-    margin: auto;
+    margin: auto auto 30px auto;
     font-size: larger;
     font-weight: bolder;
 }
-.ao-vivo-icon{
+.ao-vivo p{
+    color: #333333;
+}
+#ao-vivo-icon{
     padding: 40px;
     color: red;
 }
@@ -73,4 +74,74 @@ header{
     justify-content: flex-start;
 
 }
+.noticias-aleatorias{
+    width: 85%;
+    margin: auto auto 0px;
+    padding: auto;
+    height: auto;
+}
 
+.noticias-pequenas a{
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: centers;
+    margin: 10px;
+}
+.noticias-pequenas{
+    height: 90px;
+}
+.noticias-pequenas img{
+    margin: auto;
+    border-radius: 20px;
+    border-right: 10%;
+    width: 160px;
+    height: 90px;
+    padding: 14px;
+}
+.noticias-pequenas p{
+    font-weight: bold;
+    font-size: 14px;
+    color: #333333;
+    width: 200px;
+    height: 90px;
+}
+.topico{
+    display: flex;
+    width: 87%;
+    height: 43px;
+    margin: 20px auto;
+    padding: auto;
+    align-items: end;
+    justify-content: flex-start;
+}
+.topico a{
+    padding: 35px;
+    font-size: larger;
+    display: inline;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333333;
+}
+#topico-imagem{
+    padding: 1px;
+}
+.noticias-medias{
+    width: 86%;
+    justify-content: flex-start;
+    
+}
+.noticias-medias p{
+   margin: 0px 0px 30px 0px;
+   font-weight: bold;
+   color: #333333;
+   font-size: 16px;
+}
+.noticias-medias img{
+    width: 260px;
+    height: auto;
+}
+#tempo-icon{
+    justify-content: flex-start;
+    color: #1172BA;
+}
